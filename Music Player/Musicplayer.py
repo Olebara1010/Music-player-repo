@@ -52,7 +52,9 @@ class  MusicPlayer:
       scrol_y.config(command=self.playlist.yview)
       self.playlist.pack(fill=BOTH)
       # Changing Directory for fetching Songs
-      os.chdir("C:/Users/OLEBARA/Desktop/OLEBARA/python projects/Music Player/music")
+      script_dir = os.path.dirname(os.path.abspath(__file__))
+      music_dir = os.path.join(script_dir, "music")
+      os.chdir(music_dir)
       # Fetching Songs
       songtracks = os.listdir()
       # Inserting Songs into Playlist
