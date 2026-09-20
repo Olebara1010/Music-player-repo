@@ -17,4 +17,5 @@ Python · Tkinter · Pygame
 4. Run: `python Musicplayer.py`
 
 ## Screenshot
-[Add a screenshot or short GIF here]
+<img width="600" height="307" alt="Animation" src="https://github.com/user-attachments/assets/4cea9cbd-61b1-4307-ba82-5d3b63f3849c" />
+
